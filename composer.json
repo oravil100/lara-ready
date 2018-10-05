@@ -9,9 +9,11 @@
         }
     ],
 	"require": {
-        "php": "^7.0.0",
-        "rachidlaasri/laravel-installer": "^4"
+        "php": ">=7.0.0"
     },
+	"require-dev": {
+		"rachidlaasri/laravel-installer": "^4"
+	},
 	"autoload": {
         "psr-4": {
             "Oravil\\LaravelReady\\": "src/"
