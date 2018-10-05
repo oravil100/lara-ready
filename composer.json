@@ -16,7 +16,8 @@
         "psr-4": {
             "Oravil\\LaravelReady\\": "src/"
         },
-		"extra": {
+	},
+	"extra": {
         "laravel": {
             "providers": [
                 "Oravil\\LaravelReady\\Providers\\LaravelReadyServiceProvider"
