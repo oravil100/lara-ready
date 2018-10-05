@@ -30,5 +30,5 @@
 	 "config": {
         "sort-packages": true
     },
-    "minimum-stability": "stability"
+    "minimum-stability": "stable"
 }
