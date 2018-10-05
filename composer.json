@@ -15,7 +15,7 @@
 	"autoload": {
         "psr-4": {
             "Oravil\\LaravelReady\\": "src/"
-        },
+        }
 	},
 	"extra": {
         "laravel": {
