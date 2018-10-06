@@ -1,6 +1,6 @@
 <?php
 
-namespace Oravil\LaravelReady\Middleware;
+namespace Oravil\LaraReady\Middleware;
 
 use Closure;
 

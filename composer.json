@@ -1,7 +1,8 @@
 {
-    "name": "oravil/laravel-ready",
+    "name": "oravil/laraReady",
     "description": "this package will help you to make laravel installer is easy with admin panel",
     "license": "MIT",
+	"version": "1.1",
     "authors": [
         {
             "name": "ahmed yehia",
@@ -17,18 +18,18 @@
 	},
 	"autoload": {
         "psr-4": {
-            "Oravil\\LaravelReady\\": "src/"
+            "Oravil\\LaraReady\\": "src/"
         }
 	},
 	"extra": {
         "laravel": {
             "providers": [
-                "Oravil\\LaravelReady\\Providers\\LaravelReadyServiceProvider"
+                "Oravil\\LaraReady\\Providers\\LaraReadyServiceProvider"
             ]
         }
     },
 	 "config": {
         "sort-packages": true
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
