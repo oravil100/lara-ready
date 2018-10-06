@@ -2,7 +2,7 @@
     "name": "oravil/lara-ready",
     "description": "this package will help you to make laravel installer is easy with admin panel",
     "license": "MIT",
-	 "keywords": ["laravel", "admin", "grid", "form","installer"],
+	"keywords": ["laravel", "admin", "grid", "form","installer"],
     "homepage": "https://github.com/oravil/lara-ready",
 	"type": "project",
     "authors": [
