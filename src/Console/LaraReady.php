@@ -35,8 +35,12 @@ class LaraReady extends Command
      *
      * @return mixed
      */
-    public function handle()
+   public function handle()
     {
-        $this->call('vendor:publish --tag=laravelinstaller');
-    }
+		if($this->confirm('Do you want install Laravel Installer?')){
+			$this->call('vendor:publish',['--tag' => 'laravelinstaller']);
+			$this->call('vendor:publish',['--tag' => 'LaraReady','--force' => 'default']);
+			$this->info('Laravel Installer Installed Successfully!');
+		}
+	}
 }
