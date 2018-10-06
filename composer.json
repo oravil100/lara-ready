@@ -2,7 +2,7 @@
     "name": "oravil/lara-ready",
     "description": "this package will help you to make laravel installer is easy with admin panel",
     "license": "MIT",
-	"version": "1.3",
+	"version": "1.5",
 	"type": "project",
     "authors": [
         {
