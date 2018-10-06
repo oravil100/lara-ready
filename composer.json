@@ -3,6 +3,7 @@
     "description": "this package will help you to make laravel installer is easy with admin panel",
     "license": "MIT",
 	"version": "1.3",
+	"type": "project",
     "authors": [
         {
             "name": "ahmed yehia",
@@ -29,7 +30,9 @@
         }
     },
 	 "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "optimize-autoloader": true
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
