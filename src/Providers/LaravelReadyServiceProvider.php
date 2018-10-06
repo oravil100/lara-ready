@@ -5,6 +5,7 @@ namespace Oravil\LaravelReady\Providers;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 use Oravil\LaravelReady\Middleware\checkInstall;
+use Oravil\LaravelReady\Console\LaravelReady;
 
 class LaravelReadyServiceProvider extends ServiceProvider
 {
@@ -32,6 +33,11 @@ class LaravelReadyServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
+		if ($this->app->runningInConsole()) {
+        $this->commands([
+            LaravelReady::class,
+        ]);
+    }
         $router->middlewareGroup('checkInstall',[checkInstall::class]);
     }
 
