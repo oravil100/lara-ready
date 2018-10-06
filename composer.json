@@ -2,17 +2,24 @@
     "name": "oravil/lara-ready",
     "description": "this package will help you to make laravel installer is easy with admin panel",
     "license": "MIT",
-	"version": "1.5",
+	 "keywords": ["laravel", "admin", "grid", "form","installer"],
+    "homepage": "https://github.com/oravil/lara-ready",
+	"version": "1.5.1",
 	"type": "project",
     "authors": [
         {
-            "name": "ahmed yehia",
+            "name": "Oravil",
+            "email": "info@oravil.com"
+        },
+		{
+            "name": "Ahmed Yehia",
             "email": "a.yehia@oravil.com"
         }
     ],
 	"require": {
         "php": ">=7.0.0",
-		"rachidlaasri/laravel-installer": "^4"
+		"rachidlaasri/laravel-installer": "^4",
+		"encore/laravel-admin":"^1.6.3"
     },
 	"require-dev": {
 		
