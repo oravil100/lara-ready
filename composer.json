@@ -4,7 +4,6 @@
     "license": "MIT",
 	 "keywords": ["laravel", "admin", "grid", "form","installer"],
     "homepage": "https://github.com/oravil/lara-ready",
-	"version": "1.5.1",
 	"type": "project",
     "authors": [
         {
