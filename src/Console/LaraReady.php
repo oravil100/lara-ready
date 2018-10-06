@@ -1,10 +1,10 @@
 <?php
 
-namespace Oravil\LaravelReady\Console;
+namespace Oravil\LaraReady\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
-class LaravelReady extends Command
+class LaraReady extends Command
 {
     /**
      * The name and signature of the console command.

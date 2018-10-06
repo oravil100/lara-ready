@@ -1,13 +1,13 @@
 <?php
 
-namespace Oravil\LaravelReady\Providers;
+namespace Oravil\LaraReady\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
-use Oravil\LaravelReady\Middleware\checkInstall;
-use Oravil\LaravelReady\Console\LaravelReady;
+use Oravil\LaraReady\Middleware\checkInstall;
+use Oravil\LaraReady\Console\LaravelReady;
 
-class LaravelReadyServiceProvider extends ServiceProvider
+class LaraReadyServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
@@ -50,6 +50,6 @@ class LaravelReadyServiceProvider extends ServiceProvider
     {
       $this->publishes([
             __DIR__.'/../Routes/web.php' => base_path('routes/web.php'),
-        ],'LaravelReady');
+        ],'LaraReady');
     }
 }
