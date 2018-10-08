@@ -40,12 +40,8 @@ class LaraReady extends Command
 		if($this->confirm('Do you want install Laravel Installer?')){
 			$this->call('vendor:publish',['--tag' => 'laravelinstaller']);
 			$this->call('vendor:publish',['--tag' => 'LaraReady','--force' => 'default']);
+			$this->call('vendor:publish',['--provider' => 'Encore\Admin\AdminServiceProvider']);
 			$this->info('Laravel Installer Installed Successfully!');
-		}
-		if($this->confirm('Do you want to install laravel-admin?')){
-			$this->call('vendor:publish',['--provider' => 'Encore\Admin\AdminServiceProvide']);
-			$this->call('admin:install');
-			$this->info('Laravel Admin Installed Successfully!');
 		}
 	}
 }
