@@ -35,6 +35,11 @@
             ]
         }
     },
+	"scripts": {
+        "post-create-project-cmd": [
+            "@php artisan vendor:publish --tag=laraReady"
+        ]
+    },
 	 "config": {
         "sort-packages": true,
         "optimize-autoloader": true
